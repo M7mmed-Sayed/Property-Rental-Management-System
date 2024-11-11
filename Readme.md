@@ -1,0 +1,2 @@
+# Property Rental Management System
+### Description: Build a Django backend for a property rental platform where landlords can list their properties, tenants can browse listings and book properties, and both parties can manage their rental agreements, payments, and reviews.
