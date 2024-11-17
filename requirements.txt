@@ -1,4 +1,5 @@
 Django
 djangorestframework
 python-dotenv
-mysqlclient
+drf-yasg
+psycopg2
