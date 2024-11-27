@@ -88,12 +88,12 @@ DB_PASSWORD=os.getenv('DB_PASSWORD')
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_rent',
-        'USER': 'postgres',
-        'PASSWORD': '1199',
-        'HOST': 'localhost',
-        
-        'PORT': '5432',
+        'NAME': DB_NAME,
+        'USER': DB_USER,
+        'PASSWORD': DB_PASSWORD,
+        'HOST': DB_HOST,
+        'PORT': DB_PORT,
+
     }
 }
 
