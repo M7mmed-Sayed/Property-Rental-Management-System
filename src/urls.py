@@ -45,4 +45,5 @@ urlpatterns = [
     
     path('admin/', admin.site.urls),
     path('profile/', include('user.urls')),
+    path('properties/', include('properties.urls')),
 ]
