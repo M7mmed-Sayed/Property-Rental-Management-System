@@ -11,7 +11,7 @@ class PropertySerializer(serializers.ModelSerializer):
     class Meta:
         model = Property
         fields = [
-            'id', 'description', 'longitude', 'latitude', 'landlord', 'num_reviews', 'total_rating', 'price_per_night', 'num_rooms', 'max_users', 'avg_rating','distance','images'
+            'id', 'description', 'longitude', 'latitude', 'landlord', 'num_reviews', 'total_rating', 'price_per_night', 'num_rooms', 'max_users', 'avg_rating','distance','images','amenities'
         ]
         read_only_fields = ['num_reviews', 'total_rating', 'avg_rating', 'landlord','distance']  
 
